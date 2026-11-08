@@ -1,7 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    printf("Bienvenue dans le projet calcul-c !\n");
+    int a, b, somme;
+
+    printf("Entrez le premier nombre : ");
+    scanf("%d", &a);
+
+    printf("Entrez le deuxieme nombre : ");
+    scanf("%d", &b);
+
+    somme = a + b;
+
+    printf("La somme est : %d\n", somme);
 
     return 0;
 }
