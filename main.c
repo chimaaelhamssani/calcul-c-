@@ -11,7 +11,7 @@ int main() {
 
     somme = a + b;
 
-    printf("La somme est : %d\n", somme);
+    printf("Le resultat du calcul est : %d\n", somme);
 
     return 0;
 }
